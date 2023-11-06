@@ -21,3 +21,24 @@ Create Auth controller and service | Handle signin
 	- Create signin method
 
 ===============================================================================
+
+Server | Create Announcement controller and service | Handle CRUD | Create AnnouncementSchema
+
+- Create AnnouncementSchema
+- Create AnnouncementController
+	- Create getAnnouncements route
+	- Create createAnnouncement route
+	- Create updateAnnouncement route
+	- Create deleteAnnouncement route
+- Create AnnouncementService
+	- Create getAnnouncements method
+	- Create createAnnouncement method
+	- Create updateAnnouncement method
+	- Create deleteAnnouncement method
+- Create CreateAnnouncementDto
+- Create UpdateAnnouncementDto
+
+===============================================================================
+
+- Create swagger docs
+- Add postman collection link or file to project
