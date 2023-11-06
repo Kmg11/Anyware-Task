@@ -9,3 +9,15 @@ Server | Setup project | Create main modules
 - Setup class-validator class-transformer
 
 ===============================================================================
+
+Create Auth controller and service | Handle signin
+
+- Setup @nestjs/jwt @nestjs/passport
+- Create JwtStrategy
+- Create JwtGuard
+- Create Auth controller
+	- Create signup route
+- Create Auth service
+	- Create signin method
+
+===============================================================================
