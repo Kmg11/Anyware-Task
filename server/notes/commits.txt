@@ -1,0 +1,11 @@
+Server | Setup project | Create main modules
+
+- Setup @nestjs/config
+- Setup @nestjs/mongoose
+- Create Auth module
+- Create Quiz module
+- Create Announcement module
+- Setup cors
+- Setup class-validator class-transformer
+
+===============================================================================
