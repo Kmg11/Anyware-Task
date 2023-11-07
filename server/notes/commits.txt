@@ -40,5 +40,23 @@ Server | Create Announcement controller and service | Handle CRUD | Create Annou
 
 ===============================================================================
 
+Server | Create Quiz controller and service | Handle CRUD | Create QuizSchema
+
+- Create QuizSchema
+- Create QuizController
+	- Create getQuizzes route
+	- Create createQuiz route
+	- Create updateQuiz route
+	- Create deleteQuiz route
+- Create QuizService
+	- Create getQuizzes method
+	- Create createQuiz method
+	- Create updateQuiz method
+	- Create deleteQuiz method
+- Create CreateQuizDto
+- Create UpdateQuizDto
+
+===============================================================================
+
 - Create swagger docs
 - Add postman collection link or file to project

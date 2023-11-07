@@ -13,19 +13,19 @@ export class UpdateAnnouncementDto {
   @MinLength(1)
   @MaxLength(300)
   @IsOptional()
-  description: AnnouncementDocumentType['description'];
+  description?: AnnouncementDocumentType['description'];
 
   @IsString()
   @IsNotEmpty()
   @MinLength(1)
   @MaxLength(50)
   @IsOptional()
-  createdBy: AnnouncementDocumentType['createdBy'];
+  createdBy?: AnnouncementDocumentType['createdBy'];
 
   @IsString()
   @IsNotEmpty()
   @MinLength(1)
   @MaxLength(100)
   @IsOptional()
-  department: AnnouncementDocumentType['department'];
+  department?: AnnouncementDocumentType['department'];
 }

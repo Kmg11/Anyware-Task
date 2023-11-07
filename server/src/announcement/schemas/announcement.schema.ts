@@ -1,8 +1,11 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { HydratedDocument, QueryTimestampsConfig } from 'mongoose';
+import { HydratedDocument } from 'mongoose';
 
 export type AnnouncementDocumentType = HydratedDocument<
-  Announcement & QueryTimestampsConfig
+  Announcement & {
+    createdAt: Date;
+    updatedAt: Date;
+  }
 >;
 
 @Schema({ timestamps: true })
