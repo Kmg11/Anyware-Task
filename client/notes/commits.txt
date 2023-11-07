@@ -11,4 +11,17 @@ Client | Setup project
 
 ===============================================================
 
+Create a fake authentication | Create home page ui | Create AuthGuard component
+
+- Create signin button in homepage
+- Handle fake authentication
+- Create AuthGuard component
+- Create constants folder
+	- Create routes.constants.ts
+	- Create localStorage.constants.ts
+
+===============================================================
+
+- Create signOut button
 - Setup unit test
+- Record a video
