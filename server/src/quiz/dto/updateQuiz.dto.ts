@@ -8,6 +8,7 @@ import {
   IsOptional,
 } from 'class-validator';
 import { QuizDocumentType } from '../schemas';
+import { Type } from 'class-transformer';
 
 export class UpdateQuizDto {
   @IsString()
@@ -25,8 +26,9 @@ export class UpdateQuizDto {
   topic?: QuizDocumentType['topic'];
 
   @IsDate()
+  @Type(() => Date)
   @IsNotEmpty()
-  @MinDate(new Date(Date.now() + 86400000))
+  @MinDate(new Date())
   @IsOptional()
   dueTo?: QuizDocumentType['dueTo'];
 }

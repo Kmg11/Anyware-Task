@@ -58,5 +58,12 @@ Server | Create Quiz controller and service | Handle CRUD | Create QuizSchema
 
 ===============================================================================
 
+Fix quiz dueTo validator | Add Mongoose to QuizModule
+
+- Add Mongoose to QuizModule
+- Fix quiz dueTo validator
+
+===============================================================================
+
 - Create swagger docs
 - Add postman collection link or file to project

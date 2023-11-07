@@ -17,7 +17,7 @@ export class Quiz {
   topic: string;
 
   // * Define the 'dueTo' field with a minimum value of tomorrow
-  @Prop({ required: true, min: Date.now() + 86400000 })
+  @Prop({ required: true, min: Date.now() })
   dueTo: Date;
 }
 

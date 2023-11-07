@@ -7,6 +7,7 @@ import {
   MinDate,
 } from 'class-validator';
 import { QuizDocumentType } from '../schemas';
+import { Type } from 'class-transformer';
 
 export class CreateQuizDto {
   @IsString()
@@ -22,7 +23,8 @@ export class CreateQuizDto {
   topic: QuizDocumentType['topic'];
 
   @IsDate()
+  @Type(() => Date)
   @IsNotEmpty()
-  @MinDate(new Date(Date.now() + 86400000))
+  @MinDate(new Date())
   dueTo: QuizDocumentType['dueTo'];
 }
