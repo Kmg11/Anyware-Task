@@ -67,3 +67,4 @@ Fix quiz dueTo validator | Add Mongoose to QuizModule
 
 - Create swagger docs
 - Add postman collection link or file to project
+- Type readme.md file

@@ -1,0 +1,14 @@
+Client | Setup project
+
+- Setup tailwindcss
+- Setup react-router-dom
+- Setup i18n and it's config
+- Create HomeView
+- Create DashboardView
+- Create router
+- Create locales/en/home.json
+- Create locales/ar/home.json
+
+===============================================================
+
+- Setup unit test
