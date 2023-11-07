@@ -38,6 +38,16 @@ Create TobBar
 
 ===============================================================
 
+Create Dashboard Header
+
+- Create Header ui
+- Create dashboard translate file
+- Translate sidebar
+- Translate TopBar
+- Translate Header
+
+===============================================================
+
 - Responsive
 - Create signOut button
 - Setup unit test

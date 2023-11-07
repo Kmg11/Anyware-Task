@@ -1,4 +1,4 @@
-import userImage from "../../../../assets/images/user-image.avif";
+import userImage from "../../../../../assets/images/user-image.avif";
 
 export const UserImage = () => {
 	return (

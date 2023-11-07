@@ -1,5 +1,4 @@
-import { TopBar } from "./TopBar/TopBar";
-import { Sidebar } from "./components";
+import { TopBar, Sidebar, DashboardHeader } from "./components";
 
 export const DashboardView = () => {
 	return (
@@ -8,6 +7,7 @@ export const DashboardView = () => {
 
 			<section className="flex-1 bg-gray-100 container mx-auto px-4">
 				<TopBar />
+				<DashboardHeader />
 			</section>
 		</main>
 	);
