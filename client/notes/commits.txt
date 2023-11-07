@@ -22,6 +22,16 @@ Create a fake authentication | Create home page ui | Create AuthGuard component
 
 ===============================================================
 
+Create Sidebar
+
+- Create Sidebar ui
+	- Create Logo
+	- Create NavItems
+- Add sidebar routes to routes.constants.ts
+
+===============================================================
+
+- Responsive
 - Create signOut button
 - Setup unit test
 - Record a video
