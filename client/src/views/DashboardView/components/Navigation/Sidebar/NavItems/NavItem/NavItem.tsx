@@ -21,7 +21,7 @@ export const NavItem = ({ to, Icon, label }: NavItemProps) => {
 					${
 						isPathActive
 							? "bg-white !text-lighterPrimary font-medium"
-							: "hover:bg-white !hover:text-lighterPrimary font-medium"
+							: "hover:!bg-white hover:!text-lighterPrimary font-medium"
 					}
 			`}
 			>

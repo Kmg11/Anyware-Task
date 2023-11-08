@@ -1,7 +1,11 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  NotFoundException,
+} from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Announcement } from './schemas';
-import { Model } from 'mongoose';
+import mongoose, { Model } from 'mongoose';
 import { CreateAnnouncementDto, UpdateAnnouncementDto } from './dto';
 
 @Injectable()
@@ -31,6 +35,10 @@ export class AnnouncementService {
     announcementId: string,
     updateAnnouncementDto: UpdateAnnouncementDto,
   ) {
+    if (!mongoose.Types.ObjectId.isValid(announcementId)) {
+      throw new BadRequestException('Please provide a valid id');
+    }
+
     const announcement = await this.announcementModel.findById(announcementId);
     if (!announcement) throw new NotFoundException('Announcement not found');
 
@@ -50,6 +58,10 @@ export class AnnouncementService {
   }
 
   async deleteAnnouncement(announcementId: string) {
+    if (!mongoose.Types.ObjectId.isValid(announcementId)) {
+      throw new BadRequestException('Please provide a valid id');
+    }
+
     const announcement = await this.announcementModel.findById(announcementId);
     if (!announcement) throw new NotFoundException('Announcement not found');
 
