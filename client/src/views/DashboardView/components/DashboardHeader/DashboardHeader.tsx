@@ -4,7 +4,7 @@ export const DashboardHeader = () => {
 	const { t } = useTranslation("dashboard");
 
 	return (
-		<header className="bg-white py-4 px-4 mb-4">
+		<header className="bg-white py-4 px-4 mb-4 max-w-3xl">
 			<h3
 				className="
 					text-4xl font-bold uppercase text-lighterPrimary mb-2 text-transparent bg-clip-text bg-gradient-to-r from-primary to-lighterPrimary

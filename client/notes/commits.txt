@@ -48,6 +48,16 @@ Create Dashboard Header
 
 ===============================================================
 
+Create Announcements UI | Create UserAvatar component
+
+- Create Announcements UI
+- Create UserAvatar component
+- Replace UserImage in TopBar with UserAvatar
+- Remove TopBar UserImage component
+
+===============================================================
+
+- Test rtl
 - Responsive
 - Create signOut button
 - Setup unit test

@@ -18,6 +18,14 @@
 			"Description": "Exams Time is a web application that helps students to manage their exams and courses Exams Time is a web application that helps students to manage their exams and courses.",
 			"Quote": "It also helps teachers to manage their courses and students.",
 			"View_Exams_Tips_Button": "View exams tips"
+		},
+
+		"Announcements": {
+			"Header": {
+				"Title": "Announcements",
+				"Description": "Announcements are important for students and teachers to know what's new in the school.",
+				"All_Button": "All"
+			}
 		}
 	}
 }

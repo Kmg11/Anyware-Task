@@ -1,7 +1,8 @@
 import { FaBell, FaEnvelope } from "react-icons/fa6";
 import { IconButtonWithBadge } from "./IconButtonWithBadge/IconButtonWithBadge";
-import { UserImage } from "./UserImage/UserImage";
+import UserImage from "../../../../assets/images/user-image.avif";
 import { useTranslation } from "react-i18next";
+import { UserAvatar } from "../../../../components";
 
 export const TopBar = () => {
 	const { t } = useTranslation("dashboard");
@@ -15,7 +16,7 @@ export const TopBar = () => {
 			<div className="flex items-center gap-8">
 				<IconButtonWithBadge Icon={FaBell} badgeCount={5} />
 				<IconButtonWithBadge Icon={FaEnvelope} badgeCount={5} />
-				<UserImage />
+				<UserAvatar img={UserImage} size="md" />
 			</div>
 		</div>
 	);
