@@ -1,3 +1,4 @@
+import { Quizzes } from "./Quizzes/Quizzes";
 import { TopBar, Sidebar, DashboardHeader, Announcements } from "./components";
 
 export const DashboardView = () => {
@@ -11,6 +12,7 @@ export const DashboardView = () => {
 
 				<section className="flex gap-4">
 					<Announcements />
+					<Quizzes />
 				</section>
 			</section>
 		</main>

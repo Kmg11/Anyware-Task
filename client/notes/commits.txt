@@ -57,8 +57,18 @@ Create Announcements UI | Create UserAvatar component
 
 ===============================================================
 
+Create Quizzes UI | Create SectionHeader component
+
+- Create SectionHeader component
+- Replace AnnouncementHeader with SectionHeader
+- Remove AnnouncementHeader component
+- Create Quizzes UI
+
+===============================================================
+
 - Test rtl
 - Responsive
 - Create signOut button
 - Setup unit test
 - Record a video
+	- No image because you do not provided in header
