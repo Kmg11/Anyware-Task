@@ -79,10 +79,18 @@ Handle Responsive
 
 ===============================================================
 
-- Test rtl ( change page direction based on localStorage )
-- Create signOut button
-- Setup unit test
+Create signOut button | Create change language button
 
+- Create signOut button in TopBar
+- Handle signOut functionality
+- Create change language button in TopBar
+- Handle change language functionality
+- Detect lang when the app open
+
+===============================================================
+
+- Setup unit test
+- Type readme.md file
 - Record a video
 	- No image because you do not provided in header
 	- Show lang change

@@ -2,15 +2,17 @@ import { IconType } from "react-icons";
 
 interface IconButtonWithBadgeProps {
 	Icon: IconType;
-	badgeCount: number;
+	onClick?: React.MouseEventHandler<HTMLButtonElement>;
+	badgeCount?: number;
 }
 
 export const IconButtonWithBadge = ({
 	Icon,
-	badgeCount,
+	onClick,
+	badgeCount = 0,
 }: IconButtonWithBadgeProps) => {
 	return (
-		<button className="relative">
+		<button className="relative" onClick={onClick}>
 			<span className="text-primary text-2xl">
 				<Icon />
 			</span>
