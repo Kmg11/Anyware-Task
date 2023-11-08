@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { SectionHeader } from "../../../components";
+import { SectionHeader } from "../../../../components";
 import { Quiz } from "./Quiz/Quiz";
-import { ROUTES } from "../../../constants";
+import { ROUTES } from "../../../../constants";
 
 export const Quizzes = () => {
 	const { t } = useTranslation("dashboard");

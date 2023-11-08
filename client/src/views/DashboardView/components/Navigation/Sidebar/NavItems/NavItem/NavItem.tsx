@@ -1,6 +1,6 @@
 import { IconType } from "react-icons";
 import { Link, useLocation } from "react-router-dom";
-import { ROUTES } from "../../../../../../constants";
+import { ROUTES } from "../../../../../../../constants";
 
 export interface NavItemProps {
 	to: (typeof ROUTES)[keyof typeof ROUTES];

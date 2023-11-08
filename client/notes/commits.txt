@@ -66,9 +66,23 @@ Create Quizzes UI | Create SectionHeader component
 
 ===============================================================
 
-- Test rtl
-- Responsive
+Handle Responsive
+
+- Movie Quizzes to components folder inside DashboardView
+- Create useEventListener hook
+- Create useClickOutside hook
+- Create useEsc hook
+- Handle Sidebar in Responsive
+- Handle TopBar in Responsive
+- Handle announcements in Responsive
+- Handle Quizzes in Responsive
+
+===============================================================
+
+- Test rtl ( change page direction based on localStorage )
 - Create signOut button
 - Setup unit test
+
 - Record a video
 	- No image because you do not provided in header
+	- Show lang change

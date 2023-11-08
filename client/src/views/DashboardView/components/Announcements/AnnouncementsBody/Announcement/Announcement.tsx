@@ -14,7 +14,7 @@ export const Announcement = ({
 	userName,
 }: AnnouncementProps) => {
 	return (
-		<li className="flex gap-6">
+		<li className="flex gap-6 max-md:flex-col">
 			<div className="flex gap-3">
 				<UserAvatar img={userImage} />
 

@@ -6,7 +6,7 @@ import {
 	FaGraduationCap,
 	FaHouseChimney,
 } from "react-icons/fa6";
-import { ROUTES } from "../../../../../constants";
+import { ROUTES } from "../../../../../../constants";
 import { NavItem, NavItemProps } from "./NavItem/NavItem";
 import { useTranslation } from "react-i18next";
 
