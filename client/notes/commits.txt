@@ -89,8 +89,31 @@ Create signOut button | Create change language button
 
 ===============================================================
 
-- Setup unit test
-- Type readme.md file
+Create README.md files | Fix vercel react router problem on vercel
+
+- Type global README.md file
+- Type client README.md file
+- Type server README.md file
+- Create vercel.json to fix react router problem on vercel
+
+===============================================================
+
+- Add youtube video link
+
 - Record a video
-	- No image because you do not provided in header
-	- Show lang change
+	- Global
+		- Talk about commits file
+	- Client
+		- Talk about tech used [ React, Typescript, Tailwindcss, i18n, react-router, Vite ]
+		- I don't need to use redux
+		- No image because you do not provided in header
+		- Show lang change
+		- Show login/logout
+		- Show Responsive
+		- No unit test because it's only ui
+		- Show how to run client application
+	- Server
+		- Talk about tech used [ NestJS, Typescript ]
+		- Show postman routes
+		- Fake Auth
+		- Show how to run server application

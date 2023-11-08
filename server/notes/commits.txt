@@ -64,5 +64,3 @@ Fix quiz dueTo validator | Add Mongoose to QuizModule
 - Fix quiz dueTo validator
 
 ===============================================================================
-
-- Add postman collection link or file to project
