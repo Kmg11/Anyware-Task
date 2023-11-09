@@ -98,25 +98,6 @@ Create README.md files | Fix vercel react router problem on vercel
 
 ===============================================================
 
-- Record a video
-	- Client
-		- Tech stack [ React, Typescript, Tailwindcss, i18n, react-router, Vite ]
-		- I don't need to use redux
-		- No image because you do not provided in header
-		- Show lang change
-		- Show login/logout
-		- Show Responsive
-		- No unit test because it's only ui
-		- Show how to run client application
-	- Server
-		- Tech stack [ NestJS, Typescript ]
-		- Show postman routes
-		- Fake Auth
-		- Show how to run server application
+Finish
 
-- Send Email
-	- Repo link
-	- client live preview
-	- server live preview
-	- postman workspace
-	- youtube video link
+===============================================================
